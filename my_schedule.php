@@ -3,9 +3,9 @@
 $user_id = $_GET['user_id'];
 
 //DB情報
-$db_dsn      = 'mysql:dbname=heroku_d01cd01f87eb16d;host=us-cdbr-east-03.cleardb.com'; //dname:DB名, host:ホスト名
-$db_user     = 'b79fc312875caa'; //DBのユーザ名
-$db_password = 'caff99fb'; //DBのパスワード
+$db_dsn      = 'mysql:dbname=heroku_21cd91a4ab64864;host=us-cdbr-east-03.cleardb.com'; //dname:DB名, host:ホスト名
+$db_user     = 'b2f23a6bfef325'; //DBのユーザ名
+$db_password = '4a17af6b'; //DBのパスワード
 /*$db_dsn      = 'mysql:dbname=test;host=localhost:3307'; //dname:DB名, host:ホスト名
 $db_user     = 'root'; //DBのユーザ名
 $db_password = ''; //DBのパスワード*/

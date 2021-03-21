@@ -10,9 +10,9 @@ $save_flg = FALSE; //新規登録可能かの判断用フラグ
 //新規登録ボタン押下後の登録情報を基に新規登録可能か判断する(存在しない：$save_flg=TRUE)
 if(isset($_POST['sign_up'])){
     //DB情報
-    $db_dsn      = 'mysql:dbname=heroku_d01cd01f87eb16d;host=us-cdbr-east-03.cleardb.com'; //dname:DB名, host:ホスト名
-    $db_user     = 'b79fc312875caa'; //DBのユーザ名
-    $db_password = 'caff99fb'; //DBのパスワード
+    $db_dsn      = 'mysql:dbname=heroku_21cd91a4ab64864;host=us-cdbr-east-03.cleardb.com'; //dname:DB名, host:ホスト名
+    $db_user     = 'b2f23a6bfef325'; //DBのユーザ名
+    $db_password = '4a17af6b'; //DBのパスワード
     /*$db_dsn      = 'mysql:dbname=test;host=localhost:3307'; //dname:DB名, host:ホスト名
     $db_user     = 'root'; //DBのユーザ名
     $db_password = ''; //DBのパスワード*/
@@ -59,9 +59,9 @@ if(isset($_POST['sign_up'])){
 //新規登録可能な場合
 if($save_flg){
     //DB情報
-    $db_dsn      = 'mysql:dbname=heroku_d01cd01f87eb16d;host=us-cdbr-east-03.cleardb.com'; //dname:DB名, host:ホスト名
-    $db_user     = 'b79fc312875caa'; //DBのユーザ名
-    $db_password = 'caff99fb'; //DBのパスワード
+    $db_dsn      = 'mysql:dbname=heroku_21cd91a4ab64864;host=us-cdbr-east-03.cleardb.com'; //dname:DB名, host:ホスト名
+    $db_user     = 'b2f23a6bfef325'; //DBのユーザ名
+    $db_password = '4a17af6b'; //DBのパスワード
     /*$db_dsn      = 'mysql:dbname=test;host=localhost:3307'; //dname:DB名, host:ホスト名
     $db_user     = 'root'; //DBのユーザ名
     $db_password = ''; //DBのパスワード*/
